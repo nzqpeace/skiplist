@@ -1,4 +1,5 @@
-# skiplist
+# skiplist [![Build Status](https://travis-ci.org/nzqpeace/skiplist.svg?branch=master)](https://travis-ci.org/nzqpeace/skiplist)
+
 A skiplist written by cpp
 
 # Usage
