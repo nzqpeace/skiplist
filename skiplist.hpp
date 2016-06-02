@@ -99,7 +99,7 @@ bool Skiplist<T>::Insert(T value){
     // create new node
     int level = random_level();
     if (level > level_){
-        for (int i = level; i > level_; --i) {
+        for (int i = level - 1; i >= level_; --i) {
             update[i] = header_;
         }
         level_ = level;
