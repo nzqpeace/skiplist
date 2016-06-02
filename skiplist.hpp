@@ -7,6 +7,7 @@
 
 #include <cstddef>
 #include <assert.h>
+#include <stdlib.h>
 
 const double SKIPLIST_P = 0.25;
 template <typename T>
